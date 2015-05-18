@@ -10,7 +10,7 @@
 "branch": "cm-12.1"
 }
 {
-"repository": "android_kernel_samsung_msm7x30",
+"repository": "samsung-kernel-msm7x30",
 "target_path": "kernel/samsung/msm7x30"
 "branch": "cm-12.1"
 }
