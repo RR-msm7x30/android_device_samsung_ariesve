@@ -1,10 +1,5 @@
 [
 {
-"repository": "android_device_samsung_ariesve",
-"target_path": "device/samsung/ariesve"
-"branch": "cm-12.1"
-}
-{
 "repository": "android_vendor_samsung",
 "target_path": "vendor/samsung"
 "branch": "cm-12.1"
