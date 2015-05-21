@@ -64,6 +64,6 @@ persist.sys.force_highendgfx=true
 persist.sys.isUsbOtgEnabled=true
 
 # OTA Updater
-ro.ota.romname=RR
-ro.ota.version=544
-ro.ota.manifest=https://raw.githubusercontent.com/RR-msm7x30/android_device_samsung_ariesve/cm-12.1/ota.xml
+ro.ota.romname=Resurrection Remix
+ro.ota.version=545
+ro.ota.manifest=https://romhut.com/roms/resurrection-remix-132/ota.xml
