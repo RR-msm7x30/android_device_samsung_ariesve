@@ -47,7 +47,8 @@ TARGET_CPU_SMP := false
 RROPTI := true
 RR_O3 := true
 RR_STRICT := true
-RR_KRAI := true
+RR_KRAIT := true
+RR_GRAPHITE := true
 
 # Use dlmalloc instead of jemalloc for mallocs on low-ram target kernels
 MALLOC_IMPL := dlmalloc
