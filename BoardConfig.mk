@@ -43,6 +43,12 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := false
 
+#Sabermod Optimizations
+RROPTI := true
+RR_O3 := true
+RR_STRICT := true
+RR_KRAI := true
+
 # Use dlmalloc instead of jemalloc for mallocs on low-ram target kernels
 MALLOC_IMPL := dlmalloc
 
