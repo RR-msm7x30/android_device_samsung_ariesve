@@ -43,12 +43,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := false
 
-#Sabermod Optimizations
-RROPTI := true
-RR_O3 := true
-RR_STRICT := true
-RR_KRAIT := true
-RR_GRAPHITE := true
 
 # Use dlmalloc instead of jemalloc for mallocs on low-ram target kernels
 MALLOC_IMPL := dlmalloc
@@ -66,7 +60,7 @@ TARGET_KERNEL_CONFIG := ariesve_defconfig
 ifeq ($(HOST_OS),linux)
   ifeq ($(TARGET_BUILD_VARIANT),userdebug)
    ifeq ($(WITH_DEXPREOPT),)
-    WITH_DEXPREOPT := true
+    WITH_DEXPREOPT := false
    endif
   endif
 endif
