@@ -60,7 +60,7 @@ TARGET_KERNEL_CONFIG := ariesve_defconfig
 ifeq ($(HOST_OS),linux)
   ifeq ($(TARGET_BUILD_VARIANT),userdebug)
    ifeq ($(WITH_DEXPREOPT),)
-    WITH_DEXPREOPT := false
+    WITH_DEXPREOPT := true 
    endif
   endif
 endif
