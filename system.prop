@@ -58,12 +58,12 @@ mm.enable.smoothstreaming=true
 #persist.service.bt.a2dp.sink=true
 
 # Enable High-End graphic effects
-persist.sys.force_highendgfx=false
+persist.sys.force_highendgfx=true
 
 # USB-OTG
 persist.sys.isUsbOtgEnabled=true
 
 # OTA Updater
 ro.ota.romname=Resurrection Remix
-ro.ota.version=551
+ro.ota.version=552
 ro.ota.manifest=https://romhut.com/roms/resurrection-remix-132/ota.xml
