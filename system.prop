@@ -65,5 +65,5 @@ persist.sys.isUsbOtgEnabled=true
 
 # OTA Updater
 ro.ota.romname=Resurrection Remix
-ro.ota.version=552
+ro.ota.version=554
 ro.ota.manifest=https://romhut.com/roms/resurrection-remix-132/ota.xml
